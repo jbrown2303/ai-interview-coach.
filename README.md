@@ -1,25 +1,17 @@
-# AI Interview Coach (Full, with Job Spec → Questions)
+# AI Interview Coach (Clean Keywords Edition)
+This version fixes awkward questions (e.g., “working with Will”) by using smarter keywording from job specs.
 
-This is a complete **AI Interview Coach** app built in Streamlit.
-
-## ✨ Features
-- Question bank by role, type, and difficulty
-- **NEW:** Generate questions from job descriptions (URL or pasted text)
-- Timed answers + automated evaluation (STAR, conciseness, relevance, readability, filler words)
-- Actionable STAR outline feedback
-- Export attempts as JSON or Markdown
-- Optional LLM feedback (plug in any OpenAI-compatible API key)
-- Works offline with heuristics, or online with AI feedback
-- Deployable to Streamlit Cloud for easy access on iPhone
-
-## 🚀 Quick Start
+## Run locally
 ```bash
-python -m venv .venv && source .venv/bin/activate
+python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
-## 📱 iPhone Access
-Run locally with `--server.address 0.0.0.0` and open from Safari using your computer's IP.  
-Or deploy to Streamlit Cloud and add to your home screen as an app.
+## Deploy on Streamlit Cloud
+- Push this folder to GitHub
+- On https://share.streamlit.io create a New app
+- Main file path: `streamlit_app.py`
 
+## iPhone
+Open your Streamlit URL in Safari → Share → Add to Home Screen.

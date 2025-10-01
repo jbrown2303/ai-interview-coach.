@@ -2,3 +2,10 @@ general:
   behavioral:
     easy:
       - "Tell me about yourself."
+      - "What are your strengths?"
+  situational:
+    easy:
+      - "How would you prioritize tasks when everything is urgent?"
+  technical:
+    easy:
+      - "Explain a complex concept in simple terms."
